@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.websphere.sdo.mediator.jdbc.metadata:Metadata xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.websphere.sdo.mediator.jdbc.metadata="http:///com/ibm/websphere/sdo/mediator/jdbc/metadata.ecore" rootTable="//@tables.0">
+  <tables schemaName="DB2ADMIN" name="EMPRESTIMO">
+    <primaryKey columns="//@tables.0/@columns.0"/>
+    <columns name="CODIGO" type="6"/>
+    <columns name="CARTEIRINHA" type="6"/>
+    <columns name="CODIGOITEM" type="4"/>
+    <columns name="DEVOLVERDIA" type="6" nullable="true"/>
+    <columns name="EMPRESTADODIA" type="6" nullable="true"/>
+    <filter predicate="( CODIGO = ? )">
+      <filterArguments name="paramcodigo" type="6"/>
+    </filter>
+  </tables>
+</com.ibm.websphere.sdo.mediator.jdbc.metadata:Metadata>

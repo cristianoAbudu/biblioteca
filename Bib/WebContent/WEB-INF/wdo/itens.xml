@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.websphere.sdo.mediator.jdbc.metadata:Metadata xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.websphere.sdo.mediator.jdbc.metadata="http:///com/ibm/websphere/sdo/mediator/jdbc/metadata.ecore" rootTable="//@tables.0">
+  <tables schemaName="DB2ADMIN" name="ITEM">
+    <primaryKey columns="//@tables.0/@columns.0"/>
+    <columns name="CODIGO" type="4"/>
+    <columns name="TITULO" type="4"/>
+    <columns name="AUTOR" type="4"/>
+    <columns name="TIPO" type="4"/>
+    <columns name="EMPRESTADO"/>
+    <columns name="IDIOMA" type="4" nullable="true"/>
+  </tables>
+</com.ibm.websphere.sdo.mediator.jdbc.metadata:Metadata>

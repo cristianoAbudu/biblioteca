@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <runtime name="WebSphere Application Server v6.1"/>
+  <fixed facet="web.jstl"/>
+  <fixed facet="web.siteedit"/>
+  <fixed facet="jsf.ibm"/>
+  <fixed facet="web.template"/>
+  <fixed facet="jsf.base"/>
+  <fixed facet="web.sdo.jdbc"/>
+  <installed facet="web.template" version="1.0"/>
+  <installed facet="jst.java" version="1.4"/>
+  <installed facet="web.jstl" version="1.1"/>
+  <installed facet="jsf.base" version="7.0"/>
+  <installed facet="web.siteedit" version="7.0"/>
+  <installed facet="jst.web" version="2.4"/>
+  <installed facet="web.sdo.jdbc" version="6.1"/>
+  <installed facet="jsf.ibm" version="7.0"/>
+</faceted-project>

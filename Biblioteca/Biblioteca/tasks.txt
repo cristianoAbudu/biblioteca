@@ -1,0 +1,16 @@
+Corrigir 'StringTokenizer' que quebra a vírgula
+	//Fiz uma POG substituindo na hora que o usuário entra
+		com os dados a vírgula por '€'
+
+Consertar data de nascimento (usuários - edição e visualização)
+
+Descobrir bug de atualizações dos dados para itens.
+	//Está na SQL que atualiza o item, porém não consegui descobrir ainda
+			em: BaseItem::editar()
+		
+Aprimorar interface que salva detalhes dos itens, com coisas como
+caixas de erro caso não seja selecionado nenhum arquivo, erro caso
+a extensão do arquivo não seja '.txt'
+	em: ExportaItem.java::JFileChooser saveDialog()
+
+Implementar automatização da visualização de detalhes sobre empréstimos.

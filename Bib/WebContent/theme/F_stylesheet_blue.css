@@ -1,0 +1,679 @@
+/********************************
+ *	Faces Components Stylesheet *
+ ********************************/
+
+.commandExButton {
+	background-color:#7A7A7A; 		/* $Color 18 */
+	color: #ffffff;					/* $Color 14 */
+	border-style: none;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.commandExButton_Label {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.commandLink {
+	color: #999999;					/* $Color 9  */
+	text-decoration: none;
+}
+
+.outputLinkEx {
+	color: #999999;					/* $Color 9  */
+	text-decoration: none;
+}
+
+.graphicImageEx { border-width: 0; }
+.graphicImageEx_inline_left  { border-width: 0; padding: 0px; margin: 3px 10px 0px 0px; }
+.graphicImageEx_inline_right {	border-width: 0; padding: 0px; margin: 3px 0px 0px 10px; }
+
+.outputLabel {
+}
+
+.inputText {
+	border: 1px solid #7A7A7A;		/* $Color 18 */
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+	padding-left: 3px;
+}
+
+.inputText_Error {
+	border: 1px solid #990000;		/* $Color 8 */
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+	padding-left: 3px;
+}
+
+.inputTextarea {
+	font-family: Geneva, Arial, sans-serif;
+	border: 1px solid #7A7A7A;		/* $Color 18 */
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+	padding-left: 3px;
+}
+
+.inputSecret {
+	border: 1px solid #7A7A7A;		/* $Color 18 */
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+	padding-left: 3px;
+}
+
+.outputText {
+}
+
+.outputFormat {
+}
+
+.outputSeparator {
+	height: 1px;
+	color: #e2e2e2;					/* $Color 16 */
+	margin-bottom: 2px;
+	border-width: 0px;
+	border-bottom-width: 1px;
+}
+
+.outputSeparator_thick {
+	color: #e2e2e2;					/* $Color 16 */
+	margin-bottom: 4px;
+	height: 1px;
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-width: 0px;
+	border-bottom-width: 4px;
+	border-style: solid;
+}
+
+.message {
+	font-size: 11px;
+	color: #de5c5c;
+}
+
+.messages {
+	font-size: 11px;
+	color: #de5c5c;
+}
+
+.selectBooleanCheckbox {
+}
+
+.selectBooleanCheckbox_Label {
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+}
+
+.selectOneRadio {
+	margin: 0px; padding: 0px;
+}
+
+.selectOneRadio label {
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+	margin-left: -5px;
+}
+
+.selectOneRadio_Disabled {
+	color: GrayText;
+}
+
+.selectManyCheckbox {
+}
+
+.selectManyCheckbox label {
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+	margin-left: -5px;
+}
+
+.selectManyCheckbox_Disabled {
+	color: GrayText;
+}
+
+.selectOneListbox {
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+}
+
+.selectManyListbox {
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+}
+
+.selectOneMenu {
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+}
+
+.fileupload {
+	border: 1px solid #7A7A7A;		/* $Color 18 */
+	background-color: #F5F5F8;		/* $Color 6  */
+	color: #000000;					/* $Color 17 */
+	font-size: 1.2em;
+	padding-left: 3px;
+}
+
+.panelBox {
+}
+
+.panelLayout {
+}
+
+.panelGrid {
+}
+
+.jspPanel {
+}
+
+.playerGenericPlayer {
+}
+
+.playerFlash {
+}
+
+.playerShockwave {
+}
+
+.playerRealPlayer {
+}
+
+.playerMediaPlayer {
+}
+
+/*************************************
+ *	Compound Component:  Action Bar  *
+ *************************************/
+
+.panelActionbar {
+}
+
+.panelActionbar A:link {
+	text-decoration: none;
+}
+
+.panelActionbar A:visited {
+	text-decoration: none;
+}
+
+.panelActionbar A:hover {
+	text-decoration: underline;
+}
+
+.panelActionbar IMG {
+	border: 0;
+}
+
+.panelActionbar TD {
+	padding: 1;
+}
+
+/******************************************
+ *	Compound Component:  Slider Dropdown  *
+ ******************************************/
+.inputText_Slider {
+	background-color: #f1f2f2;		/* $Color 5  */
+	border: 2px;
+	border-style: solid;
+	border-color: #708BC2;			/* $Color 5a */
+	font-family: Geneva, Arial, sans-serif;
+	font-decoration: none;
+	color: #4d4d4d;					/* $Color 13 */
+}
+
+.inputText_Slider_Body {
+	background-color: #DAE1F1;		/* $Color 4  */
+	color: #DAE1F1;					/* $Color 4  */
+	border-style: solid;
+	border-color: #D3E1ED;			/* $Color 11a */
+	border-right-color: #BCC8D4;	/* $Color 12a */
+}
+
+/**********************************************
+ *	Compound Component:  DatePicker Dropdown  *
+ **********************************************/
+
+.inputText_DatePicker {
+	background-color: #ffffff;		/* $Color 14 */
+	border: 2px;
+	border-style: solid;
+	border-color: #708BC2;			/* $Color 5a  */
+	font-family: Geneva, Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #4d4d4d;					/* $Color 13 */
+	padding: 2px;
+	margin: 0px;
+}
+
+.inputText_DatePicker-Size {
+}
+
+.inputText_DatePicker-Header {
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-color: #DAE1F1;			/* $Color 4 */
+}
+
+.inputText_DatePicker-Body {
+	border-width: 0px;
+	border-style: none;
+	background-color: #ffffff;		/* $Color 14 */
+}
+
+.inputText_DatePicker-HeaderLine1,
+.inputText_DatePicker-HeaderLine2,
+.inputText_DatePicker-HeaderWeekday, 
+.inputText_DatePicker-HeaderYear,
+.inputText_DatePicker-HeaderMonth {
+	font-family: Geneva, Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	vertical-align: middle;
+	background-color: #f1f2f2;		/* $Color 5  */
+}
+
+.inputText_DatePicker-HeaderLine1 {
+	width: 12px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
+
+.inputText_DatePicker-HeaderYear {
+	color: #4d4d4d;					/* $Color 13 */
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
+
+.inputText_DatePicker-HeaderLine2 {
+	width: 12px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+}
+
+.inputText_DatePicker-HeaderMonth {
+	color: #4d4d4d;					/* $Color 13 */
+	padding-bottom: 3px;
+}
+
+.inputText_DatePicker-Button {
+	border: 0px;
+	width: 12px;
+	height: 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #BCC8D4;			/* $Color 12a */
+	background-color: #D3E1ED;		/* $Color 11a */
+}
+
+.inputText_DatePicker-HeaderWeekday {
+	color: #DAE1F1;					/* $Color 4  */
+	background-color: #F5F5F8;		/* $Color 6  */
+	font-size: 10px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #DAE1F1;			/* $Color 4  */
+	border-style: solid;
+}
+
+.inputText_DatePicker-OtherMonth,
+.inputText_DatePicker-CurrentMonth,
+.inputText_DatePicker-CurrentDay, 
+.inputText_DatePicker-CurrentOtherDay, 
+.inputText_DatePicker-InvalidDay, 
+.inputText_DatePicker-Today,
+.inputText_DatePicker-CurrentToday {
+	font-family: Geneva, Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: bottom;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ffffff;			/* $Color 14 */
+	width: 21px;
+	height: 23px;
+	padding: 0px;
+	padding-left: 4px;
+}
+
+.inputText_DatePicker-OtherMonth {
+	color: GrayText;
+	background-color: #ffffff;		/* $Color 14 */
+}
+
+.inputText_DatePicker-CurrentMonth {
+	color: #4d4d4d;					/* $Color 13 */
+	background-color: #f1f2f2;		/* $Color 5  */
+}
+
+.inputText_DatePicker-CurrentDay {
+	color: #000000;					/* $Color 17  */
+	border-color: #BCC8D4;			/* $Color 12a */
+	background-color: #D3E1ED;		/* $Color 11a */
+	font-weight: bold;
+}
+
+.inputText_DatePicker-CurrentOtherDay {
+	color: #000000;					/* $Color 17  */
+	border-color: #BCC8D4;			/* $Color 12a */
+	background-color: #D3E1ED;		/* $Color 11a */
+	font-weight: bold;
+}
+
+.inputText_DatePicker-InvalidDay {
+	color: GrayText;
+	background-color: #F5F5F8;		/* $Color 6  */
+	border-color: #F5F5F8;			/* $Color 6  */
+}
+
+.inputText_DatePicker-Today {
+	color: #4d4d4d;					/* $Color 13 */
+	font-weight: bold;
+	background-color: #e2e2e2;		/* $Color 16 */
+}
+
+.inputText_DatePicker-CurrentToday {
+	color: #000000;					/* $Color 17  */
+	border-color: #BCC8D4;			/* $Color 12a */
+	background-color: #D3E1ED;		/* $Color 11a */
+	font-weight: bold;
+}
+
+/*************************************
+ *	Compound Component:  Data Grid   *
+ *************************************/
+
+.dataTable {
+}
+
+.headerClass {
+	background-color: transparent;
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-width: 2px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-style: solid;
+	margin: 2px;
+	padding: 1px;
+	padding-left: 4pt;
+	padding-right: 4pt;
+	padding-bottom: 1px;
+	text-align: left;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.footerClass {
+	background-color: transparent;
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-width: 0px;
+	border-top-width: 2px;
+	border-style: solid;
+	padding: 0px;
+	padding-left: 4pt;
+	padding-right: 4pt;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.rowClass1 {
+	background-color: transparent;
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-width: 3px;
+	border-bottom-width: 1px;
+	border-style: solid;
+}
+.rowClass1 TD {
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-style: solid;
+}
+.rowClass2 {
+	background-color: transparent;
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-width: 3px;
+	border-bottom-width: 1px;
+	border-style: solid;
+}
+.rowClass2 TD {
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-style: solid;
+}
+
+.columnClass1 {
+	background-color: transparent;
+}
+
+.columnClass2 {
+	background-color: transparent;
+}
+
+.panelRowCategory {
+}
+
+.inputRowSelect {
+	vertical-align: middle;
+	margin: 0px;
+	margin-top: 1px;
+	margin-left: 3px;
+}
+
+.commandExRowEdit {
+}
+
+.editStyleClass {
+	background-color: Window;
+	border-color: #DAE1F1;			/* $Color 4  */
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	text-align: right;
+}
+
+.editStyleClass A {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	border-style: none;
+	width: 1px;
+	height: 1px;
+}
+
+.pagerSimple {
+	margin: 0px;
+	padding: 0px;
+	font-size:11px;
+}
+.pagerSimple input {
+	position: relative;
+	top: 1px;
+	margin: 0px;
+	padding: 0px;
+	color: #4d4d4d;					/* $Color 13 */
+	font-size:11px;
+}
+.pagerSimple select {
+	margin: 0px;
+	padding: 0px;
+	color: #4d4d4d;					/* $Color 13 */
+	font-size:11px;
+}
+
+.pagerGoto {
+	margin: 0px;
+	padding: 0px;
+	font-size:11px;
+}
+.pagerGoto input {
+	font-size:11px;
+}
+.pagerGoto > input {
+	margin: 0px;
+	padding: 0px;
+	color: #4d4d4d;					/* $Color 13 */
+	font-size:11px;
+}
+.pagerGoto span input {
+	position: relative;
+	top: 1px;
+	margin: 0px;
+	padding: 0px;
+	color: #4d4d4d;					/* $Color 13 */
+	font-size:11px;
+}
+
+.pagerWeb {
+}
+.pagerWeb a {
+	font-size:11px;
+	color: #4d4d4d;					/* $Color 13 */
+}
+.pagerWeb a:hover {
+	text-decoration: underline;
+}
+
+.outputStatistics {
+	color: #4d4d4d;					/* $Color 13 */
+}
+
+.pagerDeluxe {
+	border-color: #BCC8D4;			/* $Color 12a */
+	border-width: 0px;
+	border-style: solid;
+}
+
+.pagerDeluxe TD {
+	padding: 0px;
+	margin: 0px;
+	border-width: 1px;
+	border-color: #e2e2e2;			/* $Color 16 */
+	border-style: solid;
+	background-color: transparent;
+}
+
+.pagerDeluxe_button {
+	padding: 0px;
+	margin: 0px;
+	border-width: 0px;
+	border-style: none;
+	width: 22px;
+	height: 19px;
+}
+
+.pagerDeluxe_text {
+	vertical-align: middle;
+	text-align: center;
+	padding: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 0px;
+	border-width: 0px;
+	font-size: 12px;
+	color: #4d4d4d;					/* $Color 13 */
+}
+
+.pagerDeluxe_button_twistie {
+	color: #999999; 				/* $Color 9  */
+	border-color: #426696; 			/* $Color 10 */
+	list-style-type: none;
+}
+
+/********************************
+ *	Tabbed Panel: Style 4		*
+ *								*
+ *	SlantActiveLeft = 0			*
+ *	SlantInactiveLeft = 0		*
+ *	SlantActiveRight = 0		*
+ *	SlantInactiveRight = 0		*
+ ********************************/
+.tabbedPanel_4 {
+	background-color: transparent;
+	border-width: 0px; 
+	padding: 0px;
+	margin: 0px;
+}
+.tabbedPanel_4-Header {
+	border-width: 0px; 
+	border-bottom-width: 3px; 
+	border-style: solid;
+	border-color: #7D95B3;
+	padding: 0px;
+	padding-top: 4px;
+	padding-left: 8px;
+	margin: 0px;
+}
+.tabbedPanel_4-Header TABLE {
+	margin-right: 2px
+}
+.tabbedPanel_4-TabActive, .tabbedPanel_4-TabInactive {
+	font-family: sans-serif; 
+	font-size: 10pt;
+	text-decoration: none;
+	border-width: 0px;
+	border-bottom-width: 2px;
+	border-style: solid; 
+	padding: 5px; 
+	padding-top: 3px;
+	padding-bottom: 3px; 
+}
+.tabbedPanel_4-TabActive {
+	background-color: #7D95B3;
+	border-color: #7D95B3; 
+	color: window;
+	font-weight: bold;
+}
+.tabbedPanel_4-TabInactive {
+	background-color:#DEDEDE; 
+	border-color: window; 
+	color: windowtext;
+	font-weight: 400;
+}
+.tabbedPanel_4-HyperActive {
+	color: window;
+	text-decoration: none;
+}
+.tabbedPanel_4-HyperInactive {
+	color: windowtext;
+	text-decoration: none;
+}
+.tabbedPanel_4-Body {
+	background-color: transparent; 
+	border-width: 0px;
+	padding: 4px;
+}
+.tabbedPanel_4-Footer {
+}
+.tabbedPanel_4-Footer INPUT {
+	margin: 0px;
+	margin-left: 6px;
+}
+/*Use for getting all the system image icons*/
+.tabbedPanel_4-classForTabSysIcons {
+	/*Sample style, please uncomment the following line and modify the icons path if you want use your own customized system icons*/
+	/*list-style-image:url("|previous=jsl/tab/icons/previous.gif|disprevious=jsl/tab/icons/previous_disabled.gif|next=jsl/tab/icons/next.gif|disnext=jsl/tab/icons/next_disabled.gif|");*/
+}

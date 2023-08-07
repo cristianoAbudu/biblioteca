@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+<jsp-scripting>
+        <session>
+            
+        </session>
+    <param id="/Bib/WebContent/emprestimos.jsp">
+            <variable name="codigo" type="java.lang.String"/>
+        </param>
+    </jsp-scripting>
+<beanData/>
+</persistence>

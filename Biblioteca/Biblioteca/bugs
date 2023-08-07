@@ -1,0 +1,4 @@
+Bugs:
+	- Quando temos mais de uma instância do programa aberta, não é possível se conectar
+	com outra.
+	- Consertar método '.toLocaleString()'(tipo Date) e todas as impressões de data.

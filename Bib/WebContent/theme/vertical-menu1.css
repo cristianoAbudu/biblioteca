@@ -1,0 +1,444 @@
+@CHARSET "UTF-8";
+
+/************************************
+    Vertical Menu : Sample Style 1 
+       StyleClass : vmenu1       
+ ************************************/
+ 
+/*
+ * Obrigatório. Fornecer como a classe da tag <div>. 
+ * Define o nome de base do conjunto de classes CSS utilizado para estilizar o menu.
+ * Estiliza a tag <div> que contém o menu de nível superior. 
+ * Observe que <base>_1_div estiliza a mesma tag <div>.
+ */
+.vmenu1 {
+	background-color:#e7e7e7;
+	width:160px;
+}
+
+/**************************************************  
+  Classes que se aplicam à barra de menus de nível 1
+ **************************************************/
+
+/*
+ * Obrigatório. Cada menu está incluído em uma tag <div>. Especifica o estilo da tag <div>.
+ * As classes a seguir têm prioridade sobre esta classe.
+ */
+.vmenu1_1_div {
+}
+
+/*
+ * Opcional. Cada menu é organizado em linhas/colunas em uma tag <div> que utiliza uma tag <table>.
+ * Este estilo aplica-se à tabela inteira utilizada neste nível.
+ */
+.vmenu1_1_table {
+	font-family:Verdana,sans-serif;
+	font-size:8pt;
+}
+
+/*
+ * Opcional. O primeiro separador pode ser tratado de forma distinta.
+ */
+.vmenu1_1_separator_first {
+}
+
+/*
+ * Opcional. O último separador pode ser tratado de forma distinta.
+ */
+.vmenu1_1_separator_last {
+}
+
+/*
+ * Opcional. 
+ * Se este nível de menu utiliza itens separadores de menus, esta classe estilizará o separador.
+ * O separador é uma célula da tabela (ou seja, isso estiliza uma tag <td>).
+ */
+.vmenu1_1_separator {
+	width:160px;
+	height: 20px;
+    padding-left:10px;
+	background-color: #e7e7e7;
+    background-image: url("vs.gif");
+	background-repeat: no-repeat;
+	color:black;
+	text-align:left;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*
+ * Obrigatório. Cada item de menu está incluído em uma célula da tabela.
+ * Este estilo aplica-se a todas as células neste nível do menu (a menos que ocorra uma das situações a seguir).
+ */
+.vmenu1_1_cell_normal {
+	width:160px;
+	height: 20px;
+	padding-left:14px;
+	background-color: #e7e7e7;
+    background-image: url("vs.gif");
+	background-repeat: no-repeat;
+	text-align:left;
+}
+
+/*
+ * O mesmo que foi descrito acima, mas utilizada quando o mouse está sobre a célula.
+ * Caso não seja fornecida, será utilizada a classe selecionada.
+ * Caso não seja fornecida nenhuma, será utilizada a classe normal.
+ */
+.vmenu1_1_cell_moused {
+	width:160px;
+	height: 20px;
+	padding-left:14px;
+	background-color: #ffffff;
+	background-image: url("vs_o.gif");
+	background-repeat: no-repeat;
+	text-align:left;
+}
+
+/*
+ * O mesmo que foi descrito acima, mas utilizada quando o item de menu é selecionado.
+ * O estado selecionado ocorre somente quando "keepSelection=true".
+ * Caso não seja fornecida, será utilizada a classe do mouse.
+ * Caso não seja fornecida nenhuma, será utilizada a classe normal.
+ */
+.vmenu1_1_cell_selected {
+	width:160px;
+	height: 20px;
+	padding-left:14px;
+	background-color: #ffffff;
+	background-image: url("vs_o.gif");
+	background-repeat: no-repeat;
+	text-align:left;
+}
+
+/*
+ * Obrigatório. A classe aplica-se a todos os itens de menu neste nível.
+ * Se o item já tiver uma classe (ou classes) designada a ele, a classe será anexada no final da lista.
+ */
+.vmenu1_1_item_normal {
+	color:black;
+	text-decoration: none;
+}
+
+/*
+ * Conforme acima, mas com estado de mouse.
+ */
+.vmenu1_1_item_moused {
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*
+ * Conforme acima, mas com estado selecionado.
+ */
+.vmenu1_1_item_selected {
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*
+ * Opcional.
+ * Se um item de menu abrir um submenu filho, será exibida uma "seta" na borda direita da célula que contém o item.
+ * Este estilo é aplicado à seta. 
+ * Se o estilo não especificar uma imagem de segundo plano, ele estilizará a seta de texto ">" que é exibida por padrão. 
+ * Se o estilo incluir uma imagem de segundo plano, a seta de texto não será exibida e a imagem de segundo plano será utilizada como seta.
+ */
+.vmenu1_1_arrow_normal {
+	right: 1px;
+	background-image: url("vs-arrow.gif");
+	background-repeat: no-repeat;
+}
+
+/*
+ * Conforme acima, mas com estado de mouse.
+ * Se não estiver presente, um caractere ">>" será utilizado como seta.
+ */
+.vmenu1_1_arrow_moused {
+	right: 1px;
+	background-image: url("vs-o-arrow.gif");
+	background-repeat: no-repeat;
+}
+
+/*
+ * Conforme acima, mas com estado selecionado.
+ * Se não estiver presente, um caractere ">>" será utilizado como seta.
+ */
+.vmenu1_1_arrow_selected {
+	right: 1px;
+	background-image: url("vs-o-arrow.gif");
+	background-repeat: no-repeat;
+}
+
+/**************************************************  
+  Classes que se aplicam à barra de menus de nível 2
+ **************************************************/
+
+/*
+ * Obrigatório. Cada menu está incluído em uma tag <div>. Especifica o estilo da tag <div>.
+ * As classes a seguir têm prioridade sobre esta classe.
+ */
+.vmenu1_2_div {
+    margin-top:1px;
+}
+
+/*
+ * Opcional. Cada menu é organizado em linhas/colunas em uma tag <div> que utiliza uma tag <table>.
+ * Este estilo aplica-se à tabela inteira utilizada neste nível.
+ */
+.vmenu1_2_table {
+    border-style: solid;
+	border-width: 1px;
+	border-color: #BCC1D8;
+	background-color: #CBD1DE;
+	font-family:Verdana,sans-serif;
+	font-size:8pt;
+	text-decoration: none;
+}
+
+/*
+ * Opcional. 
+ * Se este nível de menu utiliza itens separadores de menus, esta classe estilizará o separador.
+ */
+.vmenu1_2_separator {
+	width:140px;
+	height: 20px;
+    padding-left: 6px;
+	padding-top: 3px;
+	font-weight: bold;
+	text-align: left;
+	color:black;
+}
+
+/*
+ * Obrigatório. Cada item de menu está incluído em uma célula da tabela.
+ * Este estilo aplica-se a todas as células neste nível do menu (a menos que ocorra uma das situações a seguir).
+ */
+.vmenu1_2_cell_normal {
+	width:140px;
+	height: 20px;
+	padding:2px;
+	padding-left:12px;
+	background-color:#E0E1E7;
+	text-align: left;
+}
+
+/*
+ * O mesmo que foi descrito acima, mas utilizada quando o mouse está sobre a célula.
+ * Caso não seja fornecida, será utilizada a classe selecionada.
+ * Caso não seja fornecida nenhuma, será utilizada a classe normal.
+ */
+.vmenu1_2_cell_moused {
+	width:140px;
+	height: 20px;
+	padding:2px;
+	padding-left:12px;
+	background-color: #A6ADC4;
+	text-align: left;
+}
+
+/*
+ * O mesmo que foi descrito acima, mas utilizada quando o item de menu é selecionado.
+ * O estado selecionado ocorre somente quando "keepSelection=true".
+ * Caso não seja fornecida, será utilizada a classe do mouse.
+ * Caso não seja fornecida nenhuma, será utilizada a classe normal.
+ */
+.vmenu1_2_cell_selected {
+	width:140px;
+	height: 20px;
+	padding:2px;
+	padding-left:12px;
+	background-color: #A6ADC4;
+	text-align: left;
+}
+
+/*
+ * Obrigatório. A classe aplica-se a todos os itens de menu neste nível.
+ * Se o item já tiver uma classe (ou classes) designada a ele, a classe será anexada no final da lista.
+ */
+.vmenu1_2_item_normal {
+	color: black;
+	text-decoration: none;
+}
+
+/*
+ * Conforme acima, mas com estado de mouse.
+ */
+.vmenu1_2_item_moused {
+	color: #000000;
+	text-decoration: none;
+}
+
+/*
+ * Conforme acima, mas com estado selecionado.
+ */
+.vmenu1_2_item_selected {
+	color: #000000;
+	text-decoration: none;
+}
+
+/*
+ * Opcional.
+ * Se um item de menu abrir um submenu filho, será exibida uma "seta" na borda direita da célula que contém o item.
+ * Este estilo é aplicado à seta. 
+ * Se o estilo não especificar uma imagem de segundo plano, ele estilizará a seta de texto ">" que é exibida por padrão. 
+ * Se o estilo incluir uma imagem de segundo plano, a seta de texto não será exibida e a imagem de segundo plano será utilizada como seta.
+ */
+.vmenu1_2_arrow_normal {
+	right: 8px;
+	color: #5C5C5C;
+}
+
+/*
+ * Conforme acima, mas com estado de mouse.
+ * Se não estiver presente, um caractere ">>" será utilizado como seta.
+ */
+.vmenu1_2_arrow_moused {
+	right: 8px;
+	color: #5C5C5C;
+}
+
+/*
+ * Conforme acima, mas com estado selecionado.
+ * Se não estiver presente, um caractere ">>" será utilizado como seta.
+ */
+.vmenu1_2_arrow_selected {
+	right: 8px;
+	color: #5C5C5C;
+}
+
+/**************************************************  
+  Classes que se aplicam à barra de menus de nível 3
+ **************************************************/
+
+/*
+ * Obrigatório. Cada menu está incluído em uma tag <div>. Especifica o estilo da tag <div>.
+ * As classes a seguir têm prioridade sobre esta classe.
+ */
+.vmenu1_3_div {
+    margin-top:1px;
+}
+
+/*
+ * Opcional. Cada menu é organizado em linhas/colunas em uma tag <div> que utiliza uma tag <table>.
+ * Este estilo aplica-se à tabela inteira utilizada neste nível.
+ */
+.vmenu1_3_table {
+	background-color: white;
+	font-family:Verdana,sans-serif;
+	font-size:8pt;
+	text-decoration: none;
+}
+
+/*
+ * Opcional. 
+ * Se este nível de menu utiliza itens separadores de menus, esta classe estilizará o separador.
+ */
+.vmenu1_3_separator {
+	width:140px;
+	height: 20px;
+	padding-left:6px; 
+	padding-top:3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A6ADC4;
+	text-align: left;
+	font-weight: bold;
+	color:black;
+}
+
+/*
+ * Obrigatório. Cada item de menu está incluído em uma célula da tabela.
+ * Este estilo aplica-se a todas as células neste nível do menu (a menos que ocorra uma das situações a seguir).
+ */
+.vmenu1_3_cell_normal {
+	width: 140px;
+	height: 20px;
+	padding:2px;
+	padding-left:12px;
+	background-color:#A6ADC4;
+	text-align: left;
+}
+
+/*
+ * O mesmo que foi descrito acima, mas utilizada quando o mouse está sobre a célula.
+ * Caso não seja fornecida, será utilizada a classe selecionada.
+ * Caso não seja fornecida nenhuma, será utilizada a classe normal.
+ */
+.vmenu1_3_cell_moused {
+	width:140px;
+	height: 20px;
+	padding:2px;
+	padding-left:12px;
+	background-color: #8D97B7;
+	text-align: left;
+}
+
+/*
+ * O mesmo que foi descrito acima, mas utilizada quando o item de menu é selecionado.
+ * O estado selecionado ocorre somente quando "keepSelection=true".
+ * Caso não seja fornecida, será utilizada a classe do mouse.
+ * Caso não seja fornecida nenhuma, será utilizada a classe normal.
+ */
+.vmenu1_3_cell_selected {
+	width:140px;
+	height: 20px;
+	padding:2px;
+	padding-left:12px;
+	background-color: #8D97B7;
+	text-align: left;
+}
+
+/*
+ * Obrigatório. A classe aplica-se a todos os itens de menu neste nível.
+ * Se o item já tiver uma classe (ou classes) designada a ele, a classe será anexada no final da lista.
+ */
+.vmenu1_3_item_normal {
+	color: black;
+	text-decoration: none;
+}
+
+/*
+ * Conforme acima, mas com estado de mouse.
+ */
+.vmenu1_3_item_moused {
+	color: #ffcf00;
+	text-decoration: none;
+}
+
+/*
+ * Conforme acima, mas com estado selecionado.
+ */
+.vmenu1_3_item_selected {
+	color: #ffcf00;
+	text-decoration: none;
+}
+
+
+/*
+ * Opcional.
+ * Se um item de menu abrir um submenu filho, será exibida uma "seta" na borda direita da célula que contém o item.
+ * Este estilo é aplicado à seta. 
+ * Se o estilo não especificar uma imagem de segundo plano, ele estilizará a seta de texto ">" que é exibida por padrão. 
+ * Se o estilo incluir uma imagem de segundo plano, a seta de texto não será exibida e a imagem de segundo plano será utilizada como seta.
+ */
+.vmenu1_3_arrow_normal {
+	right: 8px;
+}
+
+/*
+ * Conforme acima, mas com estado de mouse.
+ * Se não estiver presente, um caractere ">>" será utilizado como seta.
+ */
+.vmenu1_3_arrow_moused {
+	right: 8px;
+}
+
+/*
+ * Conforme acima, mas com estado selecionado.
+ * Se não estiver presente, um caractere ">>" será utilizado como seta.
+ */
+.vmenu1_3_arrow_selected {
+	right: 8px;
+}

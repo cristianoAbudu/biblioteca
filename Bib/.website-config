@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website version="700">
+    <structure>
+        <description/>
+        <author/>
+        <group nid="5" gid="group" depth="1">
+            <title>Biblioteca</title>
+            <page nid="1" src="/WebContent/emprestimos.jsp" template="/WebContent/theme/JSP-F-02_blue.jtpl" servleturl="/Bib/emprestimos.faces" id="1">
+                <title>Empréstimos</title>
+                <page nid="7" src="/WebContent/editar_emprestimo.jsp" template="/WebContent/theme/JSP-F-02_blue.jtpl" servleturl="/Bib/editar_emprestimo.faces" navigation="false" sitemap="false" id="4">
+                    <title>Editar Emprestimo</title>
+                </page>
+            </page>
+            <page nid="3" src="/WebContent/itens.jsp" template="/WebContent/theme/JSP-F-02_blue.jtpl" servleturl="/Bib/itens.faces" id="3">
+                <title>Itens</title>
+                <page nid="8" src="/WebContent/editar_item.jsp" template="/WebContent/theme/JSP-F-02_blue.jtpl" servleturl="/Bib/editar_item.faces" navigation="false" sitemap="false" id="5">
+                    <title>Editar Item</title>
+                </page>
+            </page>
+            <page nid="2" src="/WebContent/usuarios.jsp" template="/WebContent/theme/JSP-F-02_blue.jtpl" servleturl="/Bib/usuarios.faces" id="2">
+                <title>Usuários</title>
+                <page nid="9" src="/WebContent/editar_usuario.jsp" template="/WebContent/theme/JSP-F-02_blue.jtpl" servleturl="/Bib/editar_usuario.faces" navigation="false" sitemap="false" id="6">
+                    <title>Editar Usuario</title>
+                </page>
+            </page>
+        </group>
+    </structure>
+</website>

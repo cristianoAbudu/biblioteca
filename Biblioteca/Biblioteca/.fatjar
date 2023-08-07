@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Aug 31 16:39:00 BRT 2007
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=F\:\\Home\\Cristiano\\Biblioteca - Projeto\\Vers\u00F5es Teste\\Conex\u00E3o Configur\u00E1vel\\Usando registro do sistema\\Biblioteca_beta_v0.2.2.jar
+manifest.mergeall=true
+manifest.mainclass=Estanciador
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=OneJar
+excludes=<po|Biblioteca>~BaseEmprestimo.java;<po|Biblioteca>~BaseItem.java;<po|Biblioteca>~BaseUsu\u00E1rio.java;<po|Biblioteca>~BibliotecaFuncoes.java;<po|Biblioteca>~bib_bd.ip;<po|Biblioteca>~bib_bd.port;<po|Biblioteca>~bib_bd.remote;<po|Biblioteca>~bugs;<po|Biblioteca>~BuscaEmpr\u00E9stimoGUI.java;<po|Biblioteca>~BuscaItemGUI.java;<po|Biblioteca>~BuscaUsu\u00E1rioGUI.java;<po|Biblioteca>~CadastroEmpr\u00E9stimoGUI.java;<po|Biblioteca>~CadastroItemGUI.java;<po|Biblioteca>~Conectando.java;<po|Biblioteca>~ConexaoBaseDB2.java;<po|Biblioteca>~ConfigGUI.java;<po|Biblioteca>~ConGenerator.java
+includes=

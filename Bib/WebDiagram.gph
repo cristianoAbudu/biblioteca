@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:DiagramModel="http://www.ibm.com/etools/7.0/DiagramModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.0/notation">
+  <notation:Diagram xmi:id="_FP7boG0gEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebDiagram" element="_FP7bo20gEdyYrrb2Hv82HQ" name="WebDiagram.gph" measurementUnit="Himetric">
+    <children xmi:type="notation:Node" xmi:id="_H46QEG0gEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebPageNode" element="_H4dkIG0gEdyYrrb2Hv82HQ">
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_H46QEW0gEdyYrrb2Hv82HQ" fillColor="16047566" lineColor="8421504"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H46QE20gEdyYrrb2Hv82HQ" x="6235" y="2669"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_nYSoEG0gEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebPageNode" element="_nYJeIG0gEdyYrrb2Hv82HQ">
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_nYSoEW0gEdyYrrb2Hv82HQ" fillColor="16047566" lineColor="8421504"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nYSoE20gEdyYrrb2Hv82HQ" x="1797" y="2669"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Bb4s0G0hEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebPageNode" element="_Bbu70G0hEdyYrrb2Hv82HQ">
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_Bb4s0W0hEdyYrrb2Hv82HQ" fillColor="16047566" lineColor="8421504"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Bb4s020hEdyYrrb2Hv82HQ" x="10990" y="3303"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_FP7boW0gEdyYrrb2Hv82HQ"/>
+  </notation:Diagram>
+  <DiagramModel:Model xmi:id="_FP7bom0gEdyYrrb2Hv82HQ" id="com.ibm.etools.model2.diagram.web.WebDiagram">
+    <diagram xmi:type="DiagramModel:MDiagram" xmi:id="_FP7bo20gEdyYrrb2Hv82HQ" titleProperty="_FP7bpm0gEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebDiagram" version="7.0">
+      <persistedProperties xmi:type="DiagramModel:Property" xmi:id="_FP7bpm0gEdyYrrb2Hv82HQ" name="Name" value="Diagrama da Web"/>
+      <nodes xmi:type="DiagramModel:MNode" xmi:id="_H4dkIG0gEdyYrrb2Hv82HQ" titleProperty="_H4xGIG0gEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebPageNode">
+        <persistedProperties xmi:type="DiagramModel:Property" xmi:id="_H4xGIG0gEdyYrrb2Hv82HQ" name="web.path.key" value="itens.jsp" editable="true"/>
+      </nodes>
+      <nodes xmi:type="DiagramModel:MNode" xmi:id="_nYJeIG0gEdyYrrb2Hv82HQ" titleProperty="_nYJeJm0gEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebPageNode">
+        <persistedProperties xmi:type="DiagramModel:Property" xmi:id="_nYJeJm0gEdyYrrb2Hv82HQ" name="web.path.key" value="emprestimos.jsp" editable="true"/>
+      </nodes>
+      <nodes xmi:type="DiagramModel:MNode" xmi:id="_Bbu70G0hEdyYrrb2Hv82HQ" titleProperty="_Bbu71m0hEdyYrrb2Hv82HQ" type="com.ibm.etools.model2.diagram.web.WebPageNode">
+        <persistedProperties xmi:type="DiagramModel:Property" xmi:id="_Bbu71m0hEdyYrrb2Hv82HQ" name="web.path.key" value="usuarios.jsp" editable="true"/>
+      </nodes>
+    </diagram>
+  </DiagramModel:Model>
+</xmi:XMI>

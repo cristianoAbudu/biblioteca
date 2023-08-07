@@ -1,0 +1,427 @@
+/* Blue Color Palette used in template:
+	
+	color  1: #a1b5e2 	Top background color
+	color  2: #434343 	Left link color		
+	color  3: #93acc4	Hinky foreground color
+	color  4: #DAE1F1 	Left navbar background/matching hinkies
+	color  5: #f1f2f2 	Alternative background color
+	color 5a: #708BC2 	Selected top nav bar
+	color  6: #F5F5F8	Field background/Alternative background color
+	color  7: #193774	Hard selection color
+	color  8: #990000	link highlight
+	color  9: #999999	link in text runs
+	color 10: #426696	Alternative hinky color
+	color 11a:#D3E1ED	Highlight for color 4
+	color 12a:#BCC8D4	Shadow for color 4
+	color 13: #4d4d4d 	dark gray (normal text)
+	color 14: #ffffff	white
+	color 15: #808080	medium gray
+	color 16: #e2e2e2	line gray
+	color 17: #000000	black
+	color 18: #7A7A7A	field border color
+	color 19: #F2EFDF	call-out color
+	color 20: #708BC2	Alternative highlight color
+*/
+
+/* ----  Basic HTML Tags  ---- */
+body, td, th, p { 
+	font-family: Geneva, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #4d4d4d;  			/* $Color 13 */
+	margin: 0;
+}
+
+body {
+	margin-left:30px;
+	margin-right:30px;
+}
+
+p {
+	padding-bottom: 9px;
+}
+
+a {
+	color: #999999; 			/* $Color 9 */
+	text-decoration: none;
+}
+a:hover {
+	color: #990000;				/* $Color 8 */
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
+	font-weight: bold;
+	color: #4d4d4d; 			/* $Color 13 */
+}
+h1 { font-size: 32px; line-height: 36px; margin:  0px 0 6px 0; padding:0px; color: #999999; font-weight: normal; }	/* $Color 9 */
+h2 { font-size: 17px; line-height: 19px; margin: 12px 0 6px 0; padding:0px; color: #999999; font-weight: normal; }	/* $Color 9 */
+h3 { font-size: 14px; line-height: 16px; margin: 12px 0 4px 0; padding:0px; color: #999999; font-weight: normal; }	/* $Color 9 */
+h4 { font-size: 13px; line-height: 15px; margin:  8px 0 3px 0; padding:0px; }
+h5 { font-size: 12px; line-height: 14px; margin:  8px 0 2px 0; padding:0px; }
+h6 { font-size: 11px; line-height: 13px; margin:  2px 0 1px 0; padding:0px; }
+h7 { font-size: 10px; line-height: 12px; margin:  2px 0 1px 0; padding:0px; }
+
+img { border-width: 0; }
+.img_inline_left  { border-width: 0; padding: 0px; margin: 3px 10px 0px 0px; }
+.img_inline_right {	border-width: 0; padding: 0px; margin: 3px 0px 0px 10px; }
+
+hr {
+	height:1px;
+	color: #e2e2e2;				/* $Color 16 */
+	margin-bottom: 2px;
+	border-width: 0px;
+	border-bottom-width: 1px;
+}
+
+.hr_thick {
+	color: #e2e2e2;				/* $Color 16 */
+	margin-bottom: 2px;
+	height: 1px;
+	border-color: #e2e2e2;		/* $Color 16 */
+	border-width: 0px;
+	border-bottom-width: 4px;
+	border-style: solid;
+}
+
+/* ----  Page Width ----- */
+.pageBox {
+	text-align: center;
+}
+.pageTable {
+	width: 900px;
+}
+
+/* ----  Header Area ---- */
+.topBarBox {
+	background-color: 	#193774;	/* $Color 7 */
+	vertical-align: middle;
+	text-align: right;
+	height: 20px;
+}
+.topBarContent {
+	margin-right: 40px;
+	font-family: Geneva, Arial, sans-serif;
+	font-size: 10px;
+	color: #ffffff;					/* $Color 14 */
+}
+
+.topAreaBox {
+	background-color: #a1b5e2; 		/* $Color 1 */
+	background-image: url("blue-circles-lg.gif");
+	height: 76px;;
+	background-position: left 60px
+}
+.topAreaLogo {
+	width: 535px;
+	padding-left: 20px;
+	padding-top: 24px;
+}
+.topLogoColor {
+	font-size: 24px;
+	letter-spacing: .05em;
+	color: white;
+	font-weight: bold;
+}
+.topLogoColor:hover {
+	color: white;
+	text-decoration:none;
+}
+
+/* ----  Navigation - Left Upper ---- */
+.leftNavBk {
+	width: 180px;
+	background-color: #193774;	/* Color 7 */
+	padding-top: 20px;
+}
+.leftNavTopBk {
+	background-color: #DAE1F1; 	/* $Color 5 */
+	width: 100%;
+}
+.leftNavTop {
+	width: 100%;
+}
+.leftNavTopTD, .leftNavTopTD_sel {
+	height: 23px;
+	width: 100%;
+}
+.leftNavTopTD a, .leftNavTopTD a:hover, .leftNavTopTD_sel a, .leftNavTopTD_sel a:hover {
+	display: block;
+	height: 23px;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 25px;
+	padding-right: 8px;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: .05em;
+	font-family: Geneva, Arial, sans-serif;
+	text-decoration: none;
+	background-image: url("arrow-nav-right.gif");
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	color: #434343;					/* $Color 2  */
+}
+.leftNavTopTD_sel a {
+	background-color: #193774;		/* $Color 7  */
+	color: #ffffff;					/* $Color 14 */
+}
+.leftNavTopTD a:hover, .leftNavTopTD_sel a:hover {
+	background-color: #708BC2;		/* $Color 5a */
+	color: #ffffff;					/* $Color 14 */
+	text-decoration: none;	
+}
+
+/* ----  Navigation - Left Lower ---- */
+.leftNavBotBk {
+	padding-top: 20px;
+	background-color: window;
+}
+.leftNavBot {
+	width: 100%;
+}
+.leftNavBotTD_root {
+	display: block;
+	height: 23px;
+	vertical-align: middle;
+	line-height: 22px;
+	padding-left: 25px;
+	padding-right: 10px;
+	margin-bottom: 6px;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: .05em;
+	font-family: Geneva, Arial, sans-serif;
+	text-decoration: none;
+	background-image: url("arrow-nav-down.gif");
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	background-color: #193774;		/* $Color 7  */
+	color: #ffffff;					/* $Color 14 */
+}
+.leftNavBotTD_Selected {
+	font-weight: bold; 
+	color: #434343;					/* $Color 2  */
+}
+
+.leftNavBotTD_L2, .leftNavBotTD_L3, .leftNavBotTD_L4, .leftNavBotTD_L5 {
+	height: 19px;
+	width: 100%;
+}
+.leftNavBotTD_L2 a, .leftNavBotTD_L3 a, .leftNavBotTD_L4 a, .leftNavBotTD_L5 a {
+	display: block;
+	padding-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 8px;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: .05em;
+	font-family: Geneva, Arial, sans-serif;
+	text-decoration: none;
+	background-color: transparent;
+	color: #7a7a7a;					/* $Color 2  */
+}
+.leftNavBotTD_L2 a:hover, .leftNavBotTD_L3 a:hover, .leftNavBotTD_L4 a:hover, .leftNavBotTD_L5 a:hover {
+	background-color: #708BC2;		/* $Color 5a */
+	color: #ffffff;					/* $Color 14 */
+	text-decoration: none;	
+	background-image: url("arrow-nav-right-white.gif");
+	background-position: 2px 7px;
+	background-repeat: no-repeat;
+}
+.leftNavBotTD_L2 a { padding-left: 15px; }
+.leftNavBotTD_L3 a { padding-left: 30px; }
+.leftNavBotTD_L4 a { padding-left: 45px; }
+.leftNavBotTD_L5 a { padding-left: 60px; }
+.leftNavBotTD_L2 a:hover { background-position:  3px 7px; }
+.leftNavBotTD_L3 a:hover { background-position: 18px 7px; }
+.leftNavBotTD_L4 a:hover { background-position: 33px 7px; }
+.leftNavBotTD_L5 a:hover { background-position: 48px 7px; }
+
+/* ---- Alternative Top Nav Bar ---- */
+.topNavBk {
+	background-color: #193774;	/* Color 7 */
+	width: 100%;
+	height: 20px;
+	margin: 0 0 20px 0;
+}
+.topNav {
+	width: 100%;
+	margin: 0px;
+}
+.topNavTD {
+	height: 20px;
+}
+.topNavTD a, .topNavTD a:hover {
+	display: block;
+	height: 20px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 11px;
+	font-weight: 400;
+	color: #ffffff;					/* $Color 14 */
+	letter-spacing: .05em;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+.topNavTD a:hover {
+	background-color: #708BC2;		/* $Color 5a */
+	color: #ffffff;					/* $Color 14 */
+	text-decoration: none;	
+}
+
+/* ---- Optional Top Right Navigation:  Displayed if a group assigned to the top right nav bar ---- */
+.topNavRight {
+	line-height: 1.4em;
+	background-color: #708BC2; 		/* $Color 5a */
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.topNavRight ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left:20px;
+	margin-right:4px;
+	padding:0px;
+	padding-bottom:2px;
+}
+.topNavRight li {
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	list-style-type: square;
+	color: #ffffff; 				/* $Color 14 */
+}
+.topNavRight li a {
+	color: #ffffff;					/* $Color 14 */
+	text-decoration: none;
+	list-style-position: outside;
+}
+.topNavRight li a:hover {
+	color: #ffffff;					/* $Color 14 */
+	text-decoration: underline;
+	list-style-position: outside;
+}
+
+.navTrail {
+	font-size: 10px;
+	line-height: 16px;
+	color: #999999; 				/* $Color 9 */
+}
+
+/* ----  Main Area ---- */
+
+.main {
+	padding-top: 18px;
+	padding-left: 10px;
+}
+.main_2 {
+	padding-top: 18px;
+	padding-left: 10px;
+	width: 490px;
+}
+	
+.right {
+	margin-left: 10px;
+	margin-top: 18px;
+	margin-right: 0px;
+	padding: 20px;
+	background-color: #F2EFDF; 		/* $Color 19  */
+}
+
+/* ---- Optional Footer:  Displayed if a group assigned to the footer nav bar ---- */
+.footer {
+	width: 100%;
+	background-color: transparent;
+	border-top: 1px solid #e2e2e2;	/* $Color 16 */
+	font-size: 10px;
+	padding:0px;
+	padding-left:6px;
+	padding-right:2px;
+	margin: 20px 4px 40px 0px;
+	}
+.footer, .footer td, .footer a {
+	color: #808080;					/* $Color 15 */
+	}
+.footer td {
+	padding-top: 6px;
+}
+
+/* ----  Forms  ---- */
+form {
+	margin:0px;
+	padding:0px;
+}
+form .textInput { 
+	border: 1px solid #7A7A7A; 		/* $Color 18 */
+	background-color: #F5F5F8; 		/* $Color 6  */
+	color: #000000; 				/* $Color 17 */
+	font-size: 1.2em; 
+	padding-left: 3px; 
+}
+
+form .textArea {
+	font-family: Geneva, Arial, sans-serif;
+	border: 1px solid #7A7A7A; 		/* $Color 18 */
+	background-color: #F5F5F8; 		/* $Color 6  */
+	color: #000000;  				/* $Color 17 */
+	font-size: 1.2em; 
+	padding-left: 3px; 
+	}
+
+form .button {
+	background-color:#7A7A7A; 		/* $Color 18 */
+	color: #ffffff;					/* $Color 14 */
+	border-style: none;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+form .textLabel {
+	color: #4d4d4d; 				/* $Color 13 */
+	}
+
+form .textLabelReq { 
+	font-weight: bold; 
+	color: #4d4d4d;					/* $Color 13 */
+	}
+
+/* ----  Sample Icons  ---- */
+
+/* Use as image: <img class="arrow" src="../images/1x1.gif"/> */
+img.arrow {
+	height: 12px;
+	width: 12px;
+	margin: 0 5px 0 0;
+	vertical-align: -2px;
+	background-color: #93acc4; 		/* $Color 3 */
+	background-image: url("arrow-graphic-up-clear.gif");
+}
+/* Use as link: <a class="arrow"href="#">...</a> */
+a.arrow, a.arrow:hover{
+	height: 12px;
+	width: 12px;
+	line-height:12px;
+	margin: 0 5px 0 0;
+	display: block;
+	background-color: #93acc4; 		/* $Color 3 */
+	background-image: url("arrow-graphic-up-clear.gif");
+}
+a.arrow:hover {
+	background-color: #DAE1F1; 		/* $Color 4 */
+	text-decoration: none;
+}
+/* Other sample icon images */
+.otherImages {
+	background-image: url("arrow-graphic-down-clear.gif");
+	background-image: url("arrow-graphic-left-clear.gif");
+	background-image: url("arrow-graphic-right-clear.gif");
+	background-image: url("go-graphic-clear.gif");
+}

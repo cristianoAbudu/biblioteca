@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="BIB">
+    <development xsi:type="connections:rsc-live-connection" id="BIB_dev" name="BIB"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="C:\Arquivos de programas\IBM\SDP70Shared\plugins\com.ibm.datatools.db2_1.0.0.v200607211720\driver\db2jcc.jar;C:\Arquivos de programas\IBM\SDP70Shared\plugins\com.ibm.datatools.db2_1.0.0.v200607211720\driver\db2jcc_license_cisuz.jar" id="BIB_runtime" classname="com.ibm.db2.jcc.DB2ConnectionPoolDataSource" database-name="BIB" jndi-name="jdbc/BIB" port-number="50000" resource-reference-name="BIB" server-name="DB2" sql-vendor-type="30" userid="db2admin"/>
+  </connection>
+</connections:connections>

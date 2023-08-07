@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website version="700">
+    <structure>
+        <group depth="1" gid="group" nid="5">
+            <title>Biblioteca</title>
+            <page nid="1" servleturl="/Bib/emprestimos.faces" src="/Bib/emprestimos.jsp">
+                <title>Empréstimos</title>
+                <page navigation="false" nid="7" servleturl="/Bib/editar_emprestimo.faces" sitemap="false" src="/Bib/editar_emprestimo.jsp">
+                    <title>Editar Emprestimo</title>
+                </page>
+            </page>
+            <page nid="3" servleturl="/Bib/itens.faces" src="/Bib/itens.jsp">
+                <title>Itens</title>
+                <page navigation="false" nid="8" servleturl="/Bib/editar_item.faces" sitemap="false" src="/Bib/editar_item.jsp">
+                    <title>Editar Item</title>
+                </page>
+            </page>
+            <page nid="2" servleturl="/Bib/usuarios.faces" src="/Bib/usuarios.jsp">
+                <title>Usuários</title>
+                <page navigation="false" nid="9" servleturl="/Bib/editar_usuario.faces" sitemap="false" src="/Bib/editar_usuario.jsp">
+                    <title>Editar Usuario</title>
+                </page>
+            </page>
+        </group>
+    </structure>
+</website>

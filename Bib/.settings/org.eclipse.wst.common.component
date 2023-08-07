@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Bib">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="WebContent/WEB-INF/classes"/>
+        <property name="jsf.standard.scheme.managedBean" value="singleFile"/>
+        <property name="jsf.standard.scheme.other" value="singleFile"/>
+        <property name="jsf.standard.scheme.navigationRule.filePath" value="/WEB-INF/faces-config.xml"/>
+        <property name="jsf.standard.scheme.pageCodeBean" value="singleFile"/>
+        <property name="context-root" value="Bib"/>
+        <property name="jsf.standard.scheme.pageCodeBean.filePath" value="/WEB-INF/faces-config.xml"/>
+        <property name="jsf.standard.scheme.other.filePath" value="/WEB-INF/faces-config.xml"/>
+        <property name="jsf.base" value="7.0.0.v20061013-1800"/>
+        <property name="jsf.ri" value="7.0.0.v20061030-1800"/>
+        <property name="jsf.standard.scheme.navigationRule" value="singleFile"/>
+        <property name="jsf.standard.scheme.managedBean.filePath" value="/WEB-INF/faces-config.xml"/>
+        <property name="jsf.extended" value="7.0.0.v20061103-1440"/>
+    </wb-module>
+</project-modules>
